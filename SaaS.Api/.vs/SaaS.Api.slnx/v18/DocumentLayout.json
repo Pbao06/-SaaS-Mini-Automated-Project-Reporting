@@ -1,0 +1,306 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\otpcodeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\otpcodeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\models\\otpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:models\\otpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\planconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\templateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\templateconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\subscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\subscriptionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\aiusagelogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\aiusagelogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\roleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\reportjobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\reportjobconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\reportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\reportconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:models\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-22T14:34:48.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReportController.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "Controllers\\ReportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T14:19:42.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-22T14:03:03.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T14:02:48.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "Models\\Role.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\Role.cs",
+              "RelativeToolTip": "Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:47:15.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:47:07.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywA8AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:44:54.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TemplateConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\TemplateConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\TemplateConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\TemplateConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\TemplateConfiguration.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwBwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:44:04.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubscriptionConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\SubscriptionConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\SubscriptionConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\SubscriptionConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\SubscriptionConfiguration.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:39:00.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RoleConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\RoleConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\RoleConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\RoleConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\RoleConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:38:53.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportJobConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\ReportJobConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\ReportJobConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\ReportJobConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\ReportJobConfiguration.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAmwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:36:48.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\Report.cs",
+              "RelativeDocumentMoniker": "Models\\Report.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\Report.cs",
+              "RelativeToolTip": "Models\\Report.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:36:29.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReportConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\ReportConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\ReportConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\ReportConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\ReportConfiguration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:33:50.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlanConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\PlanConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\PlanConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\PlanConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\PlanConfiguration.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:32:35.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OtpCode.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\OtpCode.cs",
+              "RelativeDocumentMoniker": "Models\\OtpCode.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\OtpCode.cs",
+              "RelativeToolTip": "Models\\OtpCode.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:31:42.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OtpCodeConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\OtpCodeConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\OtpCodeConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\OtpCodeConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\OtpCodeConfiguration.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-22T13:31:02.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AiUsageLogConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\AiUsageLogConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\AiUsageLogConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\AiUsageLogConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\AiUsageLogConfiguration.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwCYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T03:53:17.598Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
