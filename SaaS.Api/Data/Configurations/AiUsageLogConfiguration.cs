@@ -37,7 +37,7 @@ namespace SaaS.Api.Data.Configurations
             });
             builder.ToTable(t => t.HasCheckConstraint(
                 "CK_AiUsageLogs_EstimatedCost_NonNegative",
-                "[EstimatedCost] >= 0"));
+                "EstimatedCost >= 0"));
             //Khoa ngoai Report 1-n AiUsageLog
             builder.HasOne(a => a.Report)
             .WithMany(r=> r.AiUsageLogs)

@@ -9,7 +9,7 @@ namespace SaaS.Api.Models
         public string Name { get; set; } = null!;
         public string? Description { get; set; }
         // Markdown/HTML/template content
-        public string Content { get; set; } = null!;
+        public string FilePath { get; set; } = null!;
 
         public bool IsPublic { get; set; } = false;
         public bool IsActive { get; set; } = true;

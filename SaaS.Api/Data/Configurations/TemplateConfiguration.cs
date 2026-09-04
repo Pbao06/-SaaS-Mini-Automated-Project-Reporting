@@ -19,7 +19,7 @@ namespace SaaS.Api.Data.Configurations
             builder.Property(x => x.Description)
                 .HasMaxLength(500);
 
-            builder.Property(x => x.Content)
+            builder.Property(x => x.FilePath)
                 .IsRequired();
 
             builder.Property(x => x.IsPublic)

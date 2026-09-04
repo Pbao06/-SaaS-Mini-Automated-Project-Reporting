@@ -15,8 +15,8 @@ namespace SaaS.Api.Controllers
         [HttpGet()]
         public async Task<IActionResult> Index()
         {
-            await services.Test("iphone cua hang nao ?");
-            return Ok();
+            await services.Test(content:"iphone cua hang nao ?");
+            return Ok("123");
         }
     }
 }

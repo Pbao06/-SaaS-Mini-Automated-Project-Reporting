@@ -28,8 +28,11 @@ builder.Services.AddAuthentication(options =>
 });
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
-builder.Services.AddScoped<IAIServices,AIServices>();
+builder.Services.AddScoped<IAuthServices, AuthServicesByEmailOTP>();
+builder.Services.AddScoped<IEmailServices, EmailServices>();
+builder.Services.AddScoped<IAIServices,GeminiAIServices>();
 var connStr = builder.Configuration.GetConnectionString("DefaultConnection");
+Console.WriteLine(connStr);
 builder.Services.AddDbContext<ApplicationDBContext>
     (options => options.UseMySql(connStr,ServerVersion.AutoDetect(connStr)));
 var app = builder.Build();

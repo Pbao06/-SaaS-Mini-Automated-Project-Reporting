@@ -2,6 +2,6 @@
 {
     public interface IAIServices
     {
-        public async Task Test(string content) { }
+        Task Test(string content);
     }
 }
