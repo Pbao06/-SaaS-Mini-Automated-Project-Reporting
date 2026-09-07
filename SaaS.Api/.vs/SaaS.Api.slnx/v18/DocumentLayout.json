@@ -7,52 +7,36 @@
       "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\services\\authservicesbyemailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:services\\authservicesbyemailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\dtos\\users\\registeraccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:dtos\\users\\registeraccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\models\\otpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:models\\otpcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\services\\interfaces\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:services\\interfaces\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\enums\\otpcodesendingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:enums\\otpcodesendingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\dtos\\users\\registeraccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:dtos\\users\\registeraccountrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\dtos\\users\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:dtos\\users\\verifyotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\migrations\\20260906042522_deletefieldinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:migrations\\20260906042522_deletefieldinuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\dtos\\users\\sendotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:dtos\\users\\sendotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\services\\interfaces\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:services\\interfaces\\iemailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\dtos\\common\\servicesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:dtos\\common\\servicesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:data\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|d:\\-saas-mini-automated-project-reporting\\saas.api\\services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0168A566-14FA-223F-76E0-93510F02A59F}|SaaS.Api.csproj|solutionrelative:services\\emailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,40 +66,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-04T05:14:39.172Z",
-              "EditorCaption": ""
+              "DocumentIndex": 4,
+              "Title": "OtpCodeSendingStatus.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Enums\\OtpCodeSendingStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\OtpCodeSendingStatus.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Enums\\OtpCodeSendingStatus.cs",
+              "RelativeToolTip": "Enums\\OtpCodeSendingStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-07T03:03:23.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "20260906042522_DeleteFieldInUser.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Migrations\\20260906042522_DeleteFieldInUser.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260906042522_DeleteFieldInUser.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Migrations\\20260906042522_DeleteFieldInUser.cs",
+              "RelativeToolTip": "Migrations\\20260906042522_DeleteFieldInUser.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T04:25:32.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Data\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-06T04:22:20.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "RegisterAccountRequest.cs",
               "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\DTOs\\Users\\RegisterAccountRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\Users\\RegisterAccountRequest.cs",
               "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\DTOs\\Users\\RegisterAccountRequest.cs",
               "RelativeToolTip": "DTOs\\Users\\RegisterAccountRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T04:43:40.638Z"
+              "WhenOpened": "2026-09-06T04:15:23.711Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "OtpCode.cs",
               "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\OtpCode.cs",
               "RelativeDocumentMoniker": "Models\\OtpCode.cs",
               "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Models\\OtpCode.cs",
               "RelativeToolTip": "Models\\OtpCode.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA8AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-04T04:23:02.098Z"
+              "WhenOpened": "2026-09-05T14:00:20.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-05T08:10:25.952Z"
             },
             {
               "$type": "Document",
@@ -125,106 +144,23 @@
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-09-02T14:59:27.936Z",
+              "WhenOpened": "2026-09-05T08:06:36.593Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ServicesResponse.cs",
-              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\DTOs\\Common\\ServicesResponse.cs",
-              "RelativeDocumentMoniker": "DTOs\\Common\\ServicesResponse.cs",
-              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\DTOs\\Common\\ServicesResponse.cs",
-              "RelativeToolTip": "DTOs\\Common\\ServicesResponse.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T14:58:11.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "VerifyOtpRequest.cs",
-              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\DTOs\\Users\\VerifyOtpRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\Users\\VerifyOtpRequest.cs",
-              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\DTOs\\Users\\VerifyOtpRequest.cs",
-              "RelativeToolTip": "DTOs\\Users\\VerifyOtpRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T14:55:02.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SendOtpRequest.cs",
-              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\DTOs\\Users\\SendOtpRequest.cs",
-              "RelativeDocumentMoniker": "DTOs\\Users\\SendOtpRequest.cs",
-              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\DTOs\\Users\\SendOtpRequest.cs",
-              "RelativeToolTip": "DTOs\\Users\\SendOtpRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-02T14:47:00.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAuthServices.cs",
-              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Services\\Interfaces\\IAuthServices.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthServices.cs",
-              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Services\\Interfaces\\IAuthServices.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IAuthServices.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAIwAoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-30T05:39:43.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAABEAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T15:37:38.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T15:31:45.909Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IEmailServices.cs",
-              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Services\\Interfaces\\IEmailServices.cs",
-              "RelativeDocumentMoniker": "Services\\Interfaces\\IEmailServices.cs",
-              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Services\\Interfaces\\IEmailServices.cs",
-              "RelativeToolTip": "Services\\Interfaces\\IEmailServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T06:02:49.761Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "EmailServices.cs",
-              "DocumentMoniker": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Services\\EmailServices.cs",
-              "RelativeDocumentMoniker": "Services\\EmailServices.cs",
-              "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Services\\EmailServices.cs",
-              "RelativeToolTip": "Services\\EmailServices.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAAABYAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T05:53:37.666Z"
+              "WhenOpened": "2026-09-05T08:06:09.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -234,7 +170,7 @@
               "RelativeDocumentMoniker": "Services\\AuthServicesByEmailOTP.cs",
               "ToolTip": "D:\\-SaaS-Mini-Automated-Project-Reporting\\SaaS.Api\\Services\\AuthServicesByEmailOTP.cs",
               "RelativeToolTip": "Services\\AuthServicesByEmailOTP.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAiwDYAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAxwG8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T01:49:26.344Z",
               "EditorCaption": ""

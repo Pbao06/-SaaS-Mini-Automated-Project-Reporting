@@ -9,8 +9,6 @@ namespace SaaS.Api.Models
         public string Email { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
         public string FullName { get; set; } = null!;
-        public DateTime? EmailVerifiedAt { get; set; }
-
         public bool IsActive { get; set; } = true;
         public ICollection<Report> Reports { get; set; } = new List<Report>();
         public ICollection<Subscription> Subscriptions { get; set; } = new List<Subscription>();

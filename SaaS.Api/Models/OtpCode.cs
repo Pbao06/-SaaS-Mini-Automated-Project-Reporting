@@ -1,4 +1,5 @@
 ﻿using SaaS.Api.Enum;
+using SaaS.Api.Enums;
 
 namespace SaaS.Api.Models
 {
@@ -14,6 +15,7 @@ namespace SaaS.Api.Models
         public Guid? UserId { get; set; }
         public string? VerifiedToken { get; set; }
         public DateTime? VerifiedTokenDate { get; set; }
+        public OtpCodeSendingStatus Status { get; set; }
         public User? User { get; set; }
     }
 }

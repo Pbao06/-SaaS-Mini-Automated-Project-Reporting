@@ -38,5 +38,15 @@ namespace SaaS.Api.DTOs.Common
             Message = message!,
             ResultStatus = ResultStatus.Ok
         };
+        public static new ServicesResponse<T> ErrorResponse(
+           string message,
+           ResultStatus resultStatus)
+           => new()
+           {
+               Data = default,
+               Success = false,
+               Message = message,
+               ResultStatus = resultStatus
+           };
     }
 }

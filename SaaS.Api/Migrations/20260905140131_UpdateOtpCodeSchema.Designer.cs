@@ -12,8 +12,8 @@ using SaaS.Api.Data;
 namespace SaaS.Api.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20260904042804_UpdateOtpcode")]
-    partial class UpdateOtpcode
+    [Migration("20260905140131_UpdateOtpCodeSchema")]
+    partial class UpdateOtpCodeSchema
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -112,6 +112,12 @@ namespace SaaS.Api.Migrations
 
                     b.Property<Guid?>("UserId")
                         .HasColumnType("char(36)");
+
+                    b.Property<string>("VerifiedToken")
+                        .HasColumnType("longtext");
+
+                    b.Property<DateTime?>("VerifiedTokenDate")
+                        .HasColumnType("datetime(6)");
 
                     b.HasKey("Id");
 

@@ -7,8 +7,8 @@ namespace SaaS.Api.Services.Interfaces
     public interface IAuthServices
     {
         Task<ServicesResponse> SendRegistrationOtpAsync(SendOtpRequest request,CancellationToken ct);
-        Task<ServicesResponse> VerifyRegistrationOtpAsync(VerifyOtpRequest request);
-        Task<ServicesResponse> RegisterAsync(RegisterAccountRequest request);
+        Task<ServicesResponse<VerifyOtpResponse>> VerifyRegistrationOtpAsync(VerifyOtpRequest request, CancellationToken ct);
+        Task<ServicesResponse> RegisterAsync(RegisterAccountRequest request, CancellationToken ct);
         Task Logout();
         Task Login();
     }

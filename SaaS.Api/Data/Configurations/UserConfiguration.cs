@@ -25,8 +25,6 @@ namespace SaaS.Api.Data.Configurations
             builder.Property(x => x.FullName)
                 .HasMaxLength(150);
 
-            builder.Property(x => x.EmailVerifiedAt);
-
             builder.Property(x => x.IsActive)
                 .IsRequired();
 
