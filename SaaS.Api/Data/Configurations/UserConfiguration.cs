@@ -15,9 +15,6 @@ namespace SaaS.Api.Data.Configurations
                     .HasMaxLength(255)
                     .IsRequired();
 
-            builder.HasIndex(x => x.Email)
-                .IsUnique();
-
             builder.Property(x => x.PasswordHash)
                 .HasMaxLength(500)
                 .IsRequired();

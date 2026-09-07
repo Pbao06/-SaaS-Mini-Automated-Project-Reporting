@@ -1,13 +1,30 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using SaaS.Api.Data;
+using SaaS.Api.Models;
 using SaaS.Api.Services;
 using SaaS.Api.Services.Interfaces;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
-//Jwt Configuration
+
+builder.Services.AddOpenApi();
+builder.Services.AddControllers();
+
+builder.Services.AddDbContext<ApplicationDBContext>(options =>
+{
+    var connStr = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseMySql(connStr, ServerVersion.AutoDetect(connStr));
+});
+
+builder.Services.AddScoped<IAuthServices, AuthServicesByEmailOTP>();
+builder.Services.AddScoped<IEmailServices, EmailServices>();
+builder.Services.AddScoped<IAIServices, GeminiAIServices>();
+
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+
 var jwtSettings = builder.Configuration.GetSection("Jwt");
 builder.Services.AddAuthentication(options =>
 {
@@ -15,35 +32,48 @@ builder.Services.AddAuthentication(options =>
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(options =>
 {
-    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+    options.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuer = true,
         ValidateAudience = true,
         ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
         ValidIssuer = jwtSettings["Issuer"],
-        ValidAudience = jwtSettings["SaasReportGeneration"],
+        ValidAudience = jwtSettings["Audience"],
         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]!))
     };
 });
-builder.Services.AddOpenApi();
-builder.Services.AddControllers();
-builder.Services.AddScoped<IAuthServices, AuthServicesByEmailOTP>();
-builder.Services.AddScoped<IEmailServices, EmailServices>();
-builder.Services.AddScoped<IAIServices,GeminiAIServices>();
-var connStr = builder.Configuration.GetConnectionString("DefaultConnection");
-Console.WriteLine(connStr);
-builder.Services.AddDbContext<ApplicationDBContext>
-    (options => options.UseMySql(connStr,ServerVersion.AutoDetect(connStr)));
+
+builder.Services.AddRateLimiter(options =>
+{
+    options.AddFixedWindowLimiter("auth-otp", opt =>
+    {
+        opt.PermitLimit = 5;
+        opt.Window = TimeSpan.FromMinutes(15);
+        opt.QueueLimit = 0;
+    });
+
+    options.AddFixedWindowLimiter("auth-login", opt =>
+    {
+        opt.PermitLimit = 10;
+        opt.Window = TimeSpan.FromMinutes(15);
+        opt.QueueLimit = 0;
+    });
+});
+
 var app = builder.Build();
-// Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
+
+app.UseHttpsRedirection();
+app.UseRateLimiter();
+
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseHttpsRedirection();
-app.MapControllers();
-app.Run();
 
+app.MapControllers();
+
+app.Run();

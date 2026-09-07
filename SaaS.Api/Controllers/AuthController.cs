@@ -1,5 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity.Data;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using SaaS.Api.DTOs.Common;
 using SaaS.Api.DTOs.Users;
 using SaaS.Api.Services.Interfaces;
@@ -15,28 +15,42 @@ namespace SaaS.Api.Controllers
         {
             _authservices = authservices;
         }
+
         [HttpPost("login")]
-        public async Task<IActionResult> LoginAccount()
+        [EnableRateLimiting("auth-login")]
+        public async Task<IActionResult> LoginAccount([FromBody] LoginRequest request, CancellationToken ct)
         {
-            throw new Exception();
+            var response = await _authservices.LoginAsync(request, ct);
+            return response.ToHTTPResponse();
+        }
+
+        [HttpPost("logout")]
+        public async Task<IActionResult> LogoutAccount([FromBody] LogoutRequest request, CancellationToken ct)
+        {
+            var response = await _authservices.LogoutAsync(request.UserId, ct);
+            return response.ToHTTPResponse();
         }
 
         [HttpPost("register/otp")]
-        public async Task<IActionResult> SendOtp([FromBody]SendOtpRequest request,CancellationToken ct)
+        [EnableRateLimiting("auth-otp")]
+        public async Task<IActionResult> SendOtp([FromBody] SendOtpRequest request, CancellationToken ct)
         {
-            var response = await _authservices.SendRegistrationOtpAsync(request,ct);
+            var response = await _authservices.SendRegistrationOtpAsync(request, ct);
             return response.ToHTTPResponse();
         }
+
         [HttpPost("register/verify-otp")]
-        public async Task<IActionResult> VerifyOtp([FromBody]VerifyOtpRequest request,CancellationToken ct)
+        [EnableRateLimiting("auth-otp")]
+        public async Task<IActionResult> VerifyOtp([FromBody] VerifyOtpRequest request, CancellationToken ct)
         {
-            var response = await _authservices.VerifyRegistrationOtpAsync(request,ct);
+            var response = await _authservices.VerifyRegistrationOtpAsync(request, ct);
             return response.ToHTTPResponse();
         }
+
         [HttpPost("register/create")]
-        public async Task<IActionResult> Register([FromBody]RegisterAccountRequest request,CancellationToken ct)
+        public async Task<IActionResult> Register([FromBody] RegisterAccountRequest request, CancellationToken ct)
         {
-            var response = await _authservices.RegisterAsync(request,ct);
+            var response = await _authservices.RegisterAsync(request, ct);
             return response.ToHTTPResponse();
         }
     }

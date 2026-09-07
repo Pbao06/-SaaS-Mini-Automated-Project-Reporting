@@ -1,62 +1,46 @@
-﻿
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SaaS.Api.Enum;
-using static Google.Apis.Requests.BatchRequest;
+
 namespace SaaS.Api.DTOs.Common
 {
     public static class ServicesResponseExtensions
     {
-        private static IActionResult FromResultStatusToHTTP(this ServicesResponse response)
+        private static int FromResultStatusToHTTP(ResultStatus resultStatus)
         {
-            return response.ResultStatus switch
+            return resultStatus switch
             {
-                ResultStatus.Ok =>
-                    new OkObjectResult(response),
-
-                ResultStatus.NotFound =>
-                    new NotFoundObjectResult(response),
-
-                ResultStatus.ValidationError =>
-                    new BadRequestObjectResult(response),
-
-                ResultStatus.Unauthorized =>
-                    new UnauthorizedObjectResult(response),
-
-                ResultStatus.Forbidden =>
-                    new ObjectResult(response)
-                    {
-                        StatusCode = StatusCodes.Status403Forbidden
-                    },
-
-                ResultStatus.Conflict =>
-                    new ConflictObjectResult(response),
-                //Con lai 
-                _ =>
-                new ObjectResult(response)
-                {
-                    StatusCode = StatusCodes.Status500InternalServerError
-                }
+                ResultStatus.Ok => StatusCodes.Status200OK,
+                ResultStatus.NotFound => StatusCodes.Status404NotFound,
+                ResultStatus.ValidationError => StatusCodes.Status400BadRequest,
+                ResultStatus.Unauthorized => StatusCodes.Status401Unauthorized,
+                ResultStatus.Forbidden => StatusCodes.Status403Forbidden,
+                ResultStatus.Conflict => StatusCodes.Status409Conflict,
+                _ => StatusCodes.Status500InternalServerError
             };
         }
-        public static IActionResult ToHTTPResponse(this ServicesResponse ServicesResponse)
+
+        public static IActionResult ToHTTPResponse(this ServicesResponse response)
         {
-            //Chuyen doi sang tu ServicesResponse sang ApiResponse de controller tra lai response cho request den
-            var response = ServicesResponse.Success ?
-                  ApiResponse.SuccessResponse(ServicesResponse.Message)
-                : ApiResponse.ErrorResponse(ServicesResponse.Message);
-            //Tra ve ma Http tuong ung 
-            return FromResultStatusToHTTP(ServicesResponse);
-           
+            var apiResponse = response.Success
+                ? ApiResponse.SuccessResponse(response.Message)
+                : ApiResponse.ErrorResponse(response.Message);
+
+            return new ObjectResult(apiResponse)
+            {
+                StatusCode = FromResultStatusToHTTP(response.ResultStatus)
+            };
         }
-        public static IActionResult ToHTTPResponse<T>(this ServicesResponse<T> ServicesResponse)
+
+        public static IActionResult ToHTTPResponse<T>(this ServicesResponse<T> response)
         {
-            //Chuyen doi sang tu ServicesResponse sang ApiResponse de controller tra lai response cho request den
-            var response = ServicesResponse.Success ?
-                  ApiResponse<T>.SuccessResponse(ServicesResponse.Data, ServicesResponse.Message)
-                : ApiResponse<T>.ErrorResponse(ServicesResponse.Message);
-            //Tra ve ma Http tuong ung 
-            return FromResultStatusToHTTP(ServicesResponse);
+            ApiResponse<T> apiResponse = response.Success
+                ? ApiResponse<T>.SuccessResponse(response.Data, response.Message)
+                : ApiResponse<T>.ErrorResponse(response.Message);
+
+            return new ObjectResult(apiResponse)
+            {
+                StatusCode = FromResultStatusToHTTP(response.ResultStatus)
+            };
         }
     }
 }

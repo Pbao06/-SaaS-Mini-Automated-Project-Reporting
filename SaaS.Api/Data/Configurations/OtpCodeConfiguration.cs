@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using SaaS.Api.Models;
 
-namespace YourProject.Data.Configurations;
+namespace SaaS.Api.Data.Configurations;
 
 public class OtpCodeConfiguration
     : IEntityTypeConfiguration<OtpCode>

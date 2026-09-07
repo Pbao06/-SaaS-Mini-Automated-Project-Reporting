@@ -306,7 +306,7 @@ namespace SaaS.Api.Migrations
                     b.ToTable("Templates", (string)null);
                 });
 
-            modelBuilder.Entity("SaaS.Api.Models.User", b =>
+             modelBuilder.Entity("SaaS.Api.Models.User", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -348,6 +348,36 @@ namespace SaaS.Api.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("Users", (string)null);
+                });
+
+            modelBuilder.Entity("SaaS.Api.Models.RefreshToken", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("TokenHash")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("varchar(500)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("char(36)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RefreshTokens", (string)null);
                 });
 
             modelBuilder.Entity("SaaS.Models.Report", b =>
@@ -460,6 +490,17 @@ namespace SaaS.Api.Migrations
                         .IsRequired();
 
                     b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("SaaS.Api.Models.RefreshToken", b =>
+                {
+                    b.HasOne("SaaS.Api.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("SaaS.Models.Report", b =>

@@ -19,6 +19,7 @@ namespace SaaS.Api.Data
         public DbSet<Subscription> Subscriptions => Set<Subscription>();
         public DbSet<OtpCode> OtpCodes => Set<OtpCode>();
         public DbSet<Role> Roles => Set<Role>();
+        public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
