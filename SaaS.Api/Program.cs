@@ -5,6 +5,7 @@ using Microsoft.IdentityModel.Tokens;
 using SaaS.Api.Data;
 using SaaS.Api.Models;
 using SaaS.Api.Services;
+using SaaS.Api.Services.Admin;
 using SaaS.Api.Services.Interfaces;
 using System.Text;
 
@@ -23,6 +24,7 @@ builder.Services.AddDbContext<ApplicationDBContext>(options =>
 builder.Services.AddScoped<IAuthServices, AuthServicesByEmailOTP>();
 builder.Services.AddScoped<IEmailServices, EmailServices>();
 builder.Services.AddScoped<IAIServices, GeminiAIServices>();
+builder.Services.AddScoped<IAdminUserService, AdminUserService>();
 
 builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
 
