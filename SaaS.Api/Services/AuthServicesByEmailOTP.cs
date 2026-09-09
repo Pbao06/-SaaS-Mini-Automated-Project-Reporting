@@ -5,6 +5,7 @@ using SaaS.Api.Data;
 using SaaS.Api.DTOs.Common;
 using SaaS.Api.DTOs.Users;
 using SaaS.Api.Enum;
+using SaaS.Api.Enums;
 using SaaS.Api.Models;
 using SaaS.Api.Services.Interfaces;
 using System.IdentityModel.Tokens.Jwt;
@@ -114,7 +115,7 @@ namespace SaaS.Api.Services
             {
                 Id = Guid.NewGuid(),
                 Email = email,
-                Role = await _dbContext.Roles.FirstOrDefaultAsync(r => r.Id == "User", ct) ?? null!,
+                RoleId = "User",
                 FullName = registerRequest.Fullname.Trim(),
                 IsActive = true
             };
@@ -169,6 +170,7 @@ namespace SaaS.Api.Services
             }
             catch (Exception ex)
             {
+                Console.WriteLine($"Error saving OTP code to database: {ex.Message}");
                 return ServicesResponse.ErrorResponse("Gửi OTP thất bại", ResultStatus.Error);
             }
 

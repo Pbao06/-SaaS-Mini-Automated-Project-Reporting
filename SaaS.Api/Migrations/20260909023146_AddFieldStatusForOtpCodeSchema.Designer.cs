@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SaaS.Api.Data;
 
@@ -11,9 +12,11 @@ using SaaS.Api.Data;
 namespace SaaS.Api.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    partial class ApplicationDBContextModelSnapshot : ModelSnapshot
+    [Migration("20260909023146_AddFieldStatusForOtpCodeSchema")]
+    partial class AddFieldStatusForOtpCodeSchema
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -263,22 +266,6 @@ namespace SaaS.Api.Migrations
                         .IsUnique();
 
                     b.ToTable("Roles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "Admin",
-                            CreatedAt = new DateTime(2026, 9, 9, 6, 12, 41, 991, DateTimeKind.Utc).AddTicks(9359),
-                            Description = "Administrator role",
-                            Name = "Admin"
-                        },
-                        new
-                        {
-                            Id = "User",
-                            CreatedAt = new DateTime(2026, 9, 9, 6, 12, 41, 992, DateTimeKind.Utc).AddTicks(1472),
-                            Description = "Regular user role",
-                            Name = "User"
-                        });
                 });
 
             modelBuilder.Entity("SaaS.Api.Models.Subscription", b =>

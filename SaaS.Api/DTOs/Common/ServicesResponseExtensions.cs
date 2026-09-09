@@ -33,7 +33,7 @@ namespace SaaS.Api.DTOs.Common
 
         public static IActionResult ToHTTPResponse<T>(this ServicesResponse<T> response)
         {
-            ApiResponse<T> apiResponse = response.Success
+            var apiResponse = response.Success
                 ? ApiResponse<T>.SuccessResponse(response.Data, response.Message)
                 : ApiResponse<T>.ErrorResponse(response.Message);
 

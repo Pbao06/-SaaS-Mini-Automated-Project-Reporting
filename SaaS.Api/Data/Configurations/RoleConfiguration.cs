@@ -8,6 +8,10 @@ namespace SaaS.Api.Data.Configurations
     {
         public void Configure(EntityTypeBuilder<Role> builder)
         {
+            builder.HasData(
+                new Role { Id = "Admin", Name = "Admin", Description = "Administrator role" },
+                new Role { Id = "User", Name = "User", Description = "Regular user role" }
+            );
             builder.ToTable("Roles");
 
             builder.HasKey(x => x.Id);
